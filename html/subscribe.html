@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione</title>
+    <link rel="stylesheet" href="../css/style-form.css">
+</head>
+<body>
+    <div id="intestazione">
+        <h1>MONTBLANC*</h1>
+        <p>Registrati e ricevi il 10% di sconto!</p>
+    </div>
+ 
+    <form action="login.html" method="post">
+        <div id="da">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="cognome">Cognome</label>
+            <input type="text" name="cognome" id="cognome" required>
+            <label for="ddn">Data di nascita</label>
+            <input type="date" required>
+         </div>
+         <div id="sub">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+         </div>
+
+         <button type="submit">Registrati ora!</button>
+        
+    </form>
+</body>
+</html>
